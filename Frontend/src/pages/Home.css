@@ -1,0 +1,37 @@
+.carousel{
+   position: absolute;
+   margin-bottom: 20px;
+   line-height:1;
+   top:0;
+   left:0;
+   min-width:100%;
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:5px;
+}
+
+.navbar-nav > li{
+  margin-left:10px;
+  margin-right:5px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-link {
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto {
+  margin-right: auto !important;
+}
+.mr-auto {
+  margin-left: auto !important;
+}
+.overpic{position:absolute;top:10%;left:30%;opacity:1.0;z-index:2;}
+.overpic img{width:500px;height:158px;}

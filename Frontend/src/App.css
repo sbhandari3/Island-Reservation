@@ -1,0 +1,13 @@
+.app {
+  width: 100%;
+}
+.disabled-link {
+  pointer-events: none;
+}
+
+/* Override Bootstrap's default container padding */
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
